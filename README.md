@@ -1,6 +1,6 @@
 # React component for Bottts
 
-The core React component for [Bottts Generator](https://botttsgenerator.com/) developed by [Fang-Pen Lin](https://twitter.com/fangpenlin), based on the Sketch library [Bottts](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley). 
+The core React component for [Bottts Generator](https://botttsgenerator.com/) developed by [Mack Etherington](https://twitter.com/MackEtherington), based on the Sketch library [Bottts](https://bottts.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley). Forked and adapted from [Fang-Pen Lin](https://twitter.com/fangpenlin)'s [Avataaars](https://github.com/fangpenlin/avataaars).
 
 <p align="center"><img src='./bottts-example.png?raw=true' style='width: 300px; height: 300px;' /></p>
 
