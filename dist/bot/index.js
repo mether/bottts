@@ -12,7 +12,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var bottt_1 = require("./bottt");
-var Color_1 = require("./color/Color");
+var CircleColor_1 = require("./color/CircleColor");
 var BotStyle;
 (function (BotStyle) {
     BotStyle["Circle"] = "Circle";
@@ -40,7 +40,7 @@ var Circle = /** @class */ (function (_super) {
                     React.createElement("mask", { id: mask1, fill: 'white' },
                         React.createElement("use", { xlinkHref: "#" + path1 })),
                     React.createElement("use", { id: 'Circle-Background', fill: '#E6E6E6', xlinkHref: "#" + path1 }),
-                    React.createElement(Color_1.default, { maskID: mask1 },
+                    React.createElement(CircleColor_1.default, { maskID: mask1 },
                         React.createElement("rect", { id: '\uD83D\uDD8DColor', x: '0', y: '0', width: '240', height: '240' })))) : null,
                 this.props.circle ? (React.createElement("mask", { id: mask2, fill: 'white' },
                     React.createElement("use", { xlinkHref: "#" + path1 }))) : null,

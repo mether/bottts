@@ -7,18 +7,16 @@ export { Option, OptionContext, allOptions } from './options';
 export interface Props {
     botStyle: BotStyle;
     style?: React.CSSProperties;
-    color?: string;
+    circleColor?: string;
     topType?: string;
-    hairColor?: string;
-    facialHairType?: string;
-    facialHairColor?: string;
-    clotheType?: string;
-    clotheColor?: string;
-    graphicType?: string;
+    topColor?: string;
+    faceType?: string;
+    faceColor?: string;
+    textureType?: string;
     eyeType?: string;
-    eyebrowType?: string;
     mouthType?: string;
-    skinColor?: string;
+    sideType?: string;
+    sideColor?: string;
     pieceType?: string;
     pieceSize?: string;
 }

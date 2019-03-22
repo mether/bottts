@@ -9,7 +9,7 @@ export interface Props {
 
 export function makeColor(name: string, color: string) {
   class ColorComponent extends React.Component<Props> {
-    render() {
+    render () {
       return (
         <g id={name}
            mask={`url(#${this.props.maskID})`}
@@ -49,7 +49,7 @@ export const Gray500 = makeColor('Gray', '#9E9E9E')
 export const Gray800 = makeColor('GrayDark', '#424242')
 export const BlueGrey500 = makeColor('BlueGrey', '#607D8B')
 
-export default class Color extends React.Component<Props> {
+export default class CircleColor extends React.Component<Props> {
   render() {
     return (
       <Selector option={ColorOption} defaultOption={Gray800}>

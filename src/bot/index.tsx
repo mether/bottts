@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Bottt from './bottt'
-import Color from './color/Color'
+import CircleColor from './color/CircleColor'
 
 export enum BotStyle {
   Circle = 'Circle',
@@ -51,13 +51,13 @@ class Circle extends React.Component<CircleProps> {
                 fill='#E6E6E6'
                 xlinkHref={`#${path1}`}
               />
-              <Color maskID={mask1}>
+              <CircleColor maskID={mask1}>
                 <rect id='🖍Color'
                       x='0'
                       y='0'
                       width='240'
                       height='240'/>
-              </Color>
+              </CircleColor>
             </g>
           ) : null}
           {this.props.circle ? (

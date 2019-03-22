@@ -11,7 +11,7 @@ export { Option, OptionContext, allOptions } from './options'
 export interface Props {
   botStyle: BotStyle
   style?: React.CSSProperties
-  color?: string
+  circleColor?: string
   topType?: string
   topColor?: string
   faceType?: string

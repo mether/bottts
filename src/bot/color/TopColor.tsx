@@ -22,7 +22,7 @@ import {
   Teal500,
   White,
   Yellow500,
-} from './Color'
+} from './CircleColor'
 
 export interface Props {
   maskID: string
