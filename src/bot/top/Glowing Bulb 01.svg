@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="52px" viewBox="0 0 100 52" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Top/Glowing Bulb 01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M48,8 L52,8 C60.836556,8 68,15.163444 68,24 L68,32 C68,36.418278 64.418278,40 60,40 L40,40 C35.581722,40 32,36.418278 32,32 L32,24 C32,15.163444 39.163444,8 48,8 Z"
+              id="path-1"></path>
+        <filter x="-33.3%" y="-37.5%" width="166.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix"
+                           in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.8%" y="-31.2%" width="155.6%" height="162.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                         result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix"
+                           in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="22" y="40" width="56" height="12" rx="1"></rect>
+    </defs>
+    <g id="Top/Glowing-Bulb-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bulb">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill-opacity="0.300000012" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+        <path d="M49,11.5 C53.9315485,11.5 58.3660426,13.6281427 61.4352098,17.0161556" id="Reflection" stroke="#FFFFFF"
+              stroke-width="2" stroke-linecap="round"></path>
+        <path d="M49.8284271,29 L50.3137085,29 L59.3137085,20 L62.1421356,22.8284271 L52,32.9705627 L52,40 L48,40 L48,32.8284271 L38,22.8284271 L40.8284271,20 L49.8284271,29 Z"
+              id="Why" fill-opacity="0.8" fill="#FFFFFF"></path>
+        <mask id="mask-5" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <use id="Band" fill="#48494B" xlink:href="#path-4"></use>
+    </g>
+</svg>

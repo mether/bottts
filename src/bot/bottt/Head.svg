@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="180px" height="180px" viewBox="0 0 180 180" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Bottt/Head</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.5374834,16 L24.4625166,16 C28.4743509,16 29.929139,16.4177153 31.3958057,17.2020972 C32.8624723,17.9864791 34.0135209,19.1375277 34.7979028,20.6041943 C35.5822847,22.070861 36,23.5256491 36,27.5374834 L36,48.4625166 C36,52.4743509 35.5822847,53.929139 34.7979028,55.3958057 C34.0135209,56.8624723 32.8624723,58.0135209 31.3958057,58.7979028 C29.929139,59.5822847 28.4743509,60 24.4625166,60 L11.5374834,60 C7.52564907,60 6.070861,59.5822847 4.60419433,58.7979028 C3.13752767,58.0135209 1.98647908,56.8624723 1.20209717,55.3958057 C0.41771525,53.929139 1.80555915e-16,52.4743509 -3.10752092e-16,48.4625166 L3.10752092e-16,27.5374834 C-1.80555915e-16,23.5256491 0.41771525,22.070861 1.20209717,20.6041943 C1.98647908,19.1375277 3.13752767,17.9864791 4.60419433,17.2020972 C6.070861,16.4177153 7.52564907,16 11.5374834,16 Z M127.537483,16 L140.462517,16 C144.474351,16 145.929139,16.4177153 147.395806,17.2020972 C148.862472,17.9864791 150.013521,19.1375277 150.797903,20.6041943 C151.582285,22.070861 152,23.5256491 152,27.5374834 L152,48.4625166 C152,52.4743509 151.582285,53.929139 150.797903,55.3958057 C150.013521,56.8624723 148.862472,58.0135209 147.395806,58.7979028 C145.929139,59.5822847 144.474351,60 140.462517,60 L127.537483,60 C123.525649,60 122.070861,59.5822847 120.604194,58.7979028 C119.137528,58.0135209 117.986479,56.8624723 117.202097,55.3958057 C116.417715,53.929139 116,52.4743509 116,48.4625166 L116,27.5374834 C116,23.5256491 116.417715,22.070861 117.202097,20.6041943 C117.986479,19.1375277 119.137528,17.9864791 120.604194,17.2020972 C122.070861,16.4177153 123.525649,16 127.537483,16 Z"
+              id="path-1"></path>
+        <path d="M70,36 L79,36 C79.5522847,36 80,36.4477153 80,37 L80,51 C80,51.5522847 79.5522847,52 79,52 L21,52 C20.4477153,52 20,51.5522847 20,51 L20,37 C20,36.4477153 20.4477153,36 21,36 L30,36 L30,33 C30,21.954305 38.954305,13 50,13 C61.045695,13 70,21.954305 70,33 L70,36 Z"
+              id="path-3"></path>
+        <rect id="path-5" x="0" y="0" width="130" height="120" rx="18"></rect>
+    </defs>
+    <g id="Bottt/Head" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sides/Square" transform="translate(0.000000, 66.000000)">
+            <g id="Ears" transform="translate(14.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use fill="#0076DE" xlink:href="#path-1"></use>
+                <g id="Color/19-Blue-Grey/300" mask="url(#mask-2)" fill="#90A4AE">
+                    <g transform="translate(-14.000000, 0.000000)">
+                        <rect x="0" y="0" width="180" height="76"></rect>
+                    </g>
+                </g>
+                <rect id="Shadow" fill-opacity="0.1" fill="#000000" mask="url(#mask-2)" x="-14" y="38" width="180"
+                      height="38"></rect>
+            </g>
+        </g>
+        <g id="Top/Bulb-01" transform="translate(41.000000, 0.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Bulb-Mask" fill="#59C4FF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <g id="Color/19-Blue-Grey/300" mask="url(#mask-4)" fill="#90A4AE" fill-rule="evenodd">
+                <rect x="0" y="0" width="100" height="52"></rect>
+            </g>
+            <path d="M50,36 C52.209139,36 54,35.0279942 54,31.7142857 C54,28.4005772 52.209139,24 50,24 C47.790861,24 46,28.4005772 46,31.7142857 C46,35.0279942 47.790861,36 50,36 Z"
+                  id="Light" fill-opacity="0.6" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)"></path>
+            <rect id="Highlight" fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)" x="20" y="13"
+                  width="60" height="23"></rect>
+            <path d="M50,15.5 C54.9315485,15.5 59.3660426,17.6281427 62.4352098,21.0161556 M64.8733745,24.5107242 C65.5630474,25.8293043 66.0825179,27.2509729 66.4026217,28.7465657"
+                  id="Reflection" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" mask="url(#mask-4)"></path>
+        </g>
+        <g id="Face/Square-01" transform="translate(25.000000, 44.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Shape" fill="#0076DE" fill-rule="evenodd" xlink:href="#path-5"></use>
+            <g id="Color/19-Blue-Grey/200" mask="url(#mask-6)" fill="#B0BEC5" fill-rule="evenodd">
+                <g transform="translate(-2.000000, -2.000000)">
+                    <rect x="0" y="0" width="134" height="124"></rect>
+                </g>
+            </g>
+            <g id="Texture/-None" mask="url(#mask-6)">
+                <g transform="translate(-1.000000, -1.000000)"></g>
+            </g>
+        </g>
+        <g id="Mouth/Square-01" transform="translate(52.000000, 124.000000)" fill="#000000" fill-opacity="0.8">
+            <rect id="Beep-Boop" x="24" y="6" width="27" height="8" rx="4"></rect>
+        </g>
+        <g id="Eyes/Round" transform="translate(38.000000, 76.000000)" fill="#FFFFFF">
+            <g id="Eye" transform="translate(18.000000, 24.000000)">
+                <circle cx="6" cy="6" r="6"></circle>
+                <circle cx="62" cy="6" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

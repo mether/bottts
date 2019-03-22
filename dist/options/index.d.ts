@@ -1,0 +1,15 @@
+import Option from './Option';
+export { default as Option } from './Option';
+export { default as OptionContext, OptionContextState } from './OptionContext';
+export { default as Selector } from './Selector';
+export declare const ColorOption: Option;
+export declare const FaceOption: Option;
+export declare const FaceColorOption: Option;
+export declare const TextureOption: Option;
+export declare const EyesOption: Option;
+export declare const MouthOption: Option;
+export declare const TopOption: Option;
+export declare const TopColorOption: Option;
+export declare const SidesOption: Option;
+export declare const SidesColorOption: Option;
+export declare const allOptions: Option[];

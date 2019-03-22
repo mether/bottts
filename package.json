@@ -1,0 +1,39 @@
+{
+  "name": "bottts",
+  "version": "1.0",
+  "description": "React component for bottts ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "bot"
+  ],
+  "repository": "git@github.com:mether/bottts.git",
+  "author": "Mackenzie Etherington <hello@mackenziee.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.25",
+    "import-sort-style-renke": "^4.2.0",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0"
+  },
+  "importSort": {
+    ".js, .jsx, .es6, .es": {
+      "parser": "babylon",
+      "style": "import-sort-style-renke"
+    },
+    ".ts, .tsx": {
+      "parser": "typescript",
+      "style": "import-sort-style-renke"
+    }
+  }
+}
