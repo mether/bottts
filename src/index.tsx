@@ -13,16 +13,14 @@ export interface Props {
   style?: React.CSSProperties
   color?: string
   topType?: string
-  hairColor?: string
-  facialHairType?: string
-  facialHairColor?: string
-  clotheType?: string
-  clotheColor?: string
-  graphicType?: string
+  topColor?: string
+  faceType?: string
+  faceColor?: string
+  textureType?: string
   eyeType?: string
-  eyebrowType?: string
   mouthType?: string
-  skinColor?: string
+  sideType?: string
+  sideColor?: string
   pieceType?: string
   pieceSize?: string
 }
