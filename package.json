@@ -1,6 +1,6 @@
 {
   "name": "bottts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component for bottts ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
