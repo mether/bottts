@@ -2,7 +2,7 @@ import Option from './Option';
 export { default as Option } from './Option';
 export { default as OptionContext, OptionContextState } from './OptionContext';
 export { default as Selector } from './Selector';
-export declare const ColorOption: Option;
+export declare const CircleColorOption: Option;
 export declare const FaceOption: Option;
 export declare const FaceColorOption: Option;
 export declare const TextureOption: Option;

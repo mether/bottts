@@ -57,7 +57,7 @@ var CircleColor = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CircleColor.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { option: options_1.ColorOption, defaultOption: exports.Gray800 },
+        return (React.createElement(options_1.Selector, { option: options_1.CircleColorOption, defaultOption: exports.Gray800 },
             React.createElement(exports.Black, { maskID: this.props.maskID }, this.props.children),
             React.createElement(exports.White, { maskID: this.props.maskID }, this.props.children),
             React.createElement(exports.Red500, { maskID: this.props.maskID }, this.props.children),

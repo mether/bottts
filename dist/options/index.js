@@ -7,8 +7,8 @@ var OptionContext_1 = require("./OptionContext");
 exports.OptionContext = OptionContext_1.default;
 var Selector_1 = require("./Selector");
 exports.Selector = Selector_1.default;
-exports.ColorOption = new Option_1.default({
-    key: 'color',
+exports.CircleColorOption = new Option_1.default({
+    key: 'circleColor',
     label: '🎨 Circle Color',
 });
 exports.FaceOption = new Option_1.default({
@@ -48,7 +48,7 @@ exports.SidesColorOption = new Option_1.default({
     label: '↳ 🎨 Sides',
 });
 exports.allOptions = [
-    exports.ColorOption,
+    exports.CircleColorOption,
     exports.TopOption,
     exports.TopColorOption,
     exports.FaceOption,

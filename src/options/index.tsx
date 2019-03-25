@@ -4,8 +4,8 @@ export { default as Option } from './Option'
 export { default as OptionContext, OptionContextState } from './OptionContext'
 export { default as Selector } from './Selector'
 
-export const ColorOption = new Option({
-  key: 'color',
+export const CircleColorOption = new Option({
+  key: 'circleColor',
   label: '🎨 Circle Color',
 })
 
@@ -55,7 +55,7 @@ export const SidesColorOption = new Option({
 })
 
 export const allOptions = [
-  ColorOption,
+  CircleColorOption,
   TopOption,
   TopColorOption,
   FaceOption,

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ColorOption, Selector } from '../../options'
+import { CircleColorOption, Selector } from '../../options'
 
 export interface Props {
   maskID: string
@@ -52,7 +52,7 @@ export const BlueGrey500 = makeColor('BlueGrey', '#607D8B')
 export default class CircleColor extends React.Component<Props> {
   render() {
     return (
-      <Selector option={ColorOption} defaultOption={Gray800}>
+      <Selector option={CircleColorOption} defaultOption={Gray800}>
         <Black maskID={this.props.maskID}>{this.props.children}</Black>
         <White maskID={this.props.maskID}>{this.props.children}</White>
         <Red500 maskID={this.props.maskID}>{this.props.children}</Red500>
