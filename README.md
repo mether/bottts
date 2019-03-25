@@ -38,7 +38,7 @@ export default class MyComponent extends React.Component {
     return 
       <div>
         Your bot:
-        <Bottt
+        <Bot
           style={{width: '100px', height: '100px'}}
           botStyle='Circle'
           circleColor='BlueGrey300'
