@@ -13,6 +13,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var eyes_1 = require("./eyes");
 var face_1 = require("./face");
+var mouth_1 = require("./mouth");
+var sides_1 = require("./sides");
+var top_1 = require("./top");
 var BotStyle;
 (function (BotStyle) {
     BotStyle["Circle"] = "Circle";
@@ -25,8 +28,11 @@ var PieceComponent = /** @class */ (function (_super) {
     }
     PieceComponent.prototype.render = function () {
         return (React.createElement("svg", { style: this.props.style, width: this.props.pieceSize + "px", height: this.props.pieceSize + "px", viewBox: "0 0 180 180", version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xmlnsXlink: 'http://www.w3.org/1999/xlink' },
+            this.props.pieceType === 'eyes' && React.createElement(eyes_1.default, null),
             this.props.pieceType === 'face' && React.createElement(face_1.default, null),
-            this.props.pieceType === 'eyes' && React.createElement(eyes_1.default, null)));
+            this.props.pieceType === 'mouth' && React.createElement(mouth_1.default, null),
+            this.props.pieceType === 'sides' && React.createElement(sides_1.default, null),
+            this.props.pieceType === 'top' && React.createElement(top_1.default, null)));
     };
     return PieceComponent;
 }(React.Component));
