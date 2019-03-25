@@ -7,7 +7,7 @@ export interface Props {
   children: React.ReactNode
 }
 
-export function makeColor(name: string, color: string) {
+export function makeColor (name: string, color: string) {
   class ColorComponent extends React.Component<Props> {
     render () {
       return (

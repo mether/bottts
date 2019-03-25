@@ -8,6 +8,6 @@ export interface BotProps {
     style?: React.CSSProperties;
     size?: number;
 }
-export default class Bot extends React.Component<BotProps> {
+export declare class Bot extends React.Component<BotProps> {
     render(): JSX.Element;
 }

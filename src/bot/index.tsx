@@ -84,16 +84,17 @@ export interface BotProps {
   size?: number
 }
 
-export default class Bot extends React.Component<BotProps> {
+export class Bot extends React.Component<BotProps> {
   render () {
     const { botStyle, style, size } = this.props
     const circle = botStyle === BotStyle.Circle
     const mainID = 'Bottt'
+    const defaultSize = size ? size : 240
 
     return (
       <svg style={style}
-           width={`${size}px`}
-           height={`${size}px`}
+           width={`${defaultSize}px`}
+           height={`${defaultSize}px`}
            viewBox={`0 0 240 240`}
            version='1.1'
            xmlns='http://www.w3.org/2000/svg'

@@ -15,7 +15,7 @@ export interface Props {
   style?: React.CSSProperties
 }
 
-export default class PieceComponent extends React.Component<Props> {
+export class PieceComponent extends React.Component<Props> {
   render () {
     return (
       <svg

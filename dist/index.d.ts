@@ -1,11 +1,10 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { BotStyle } from './bot';
 import { OptionContext } from './options';
-export { default as Bot, BotStyle } from './bot';
+export { Bot, BotStyle } from './bot';
 export { Option, OptionContext, allOptions } from './options';
 export interface Props {
-    botStyle: BotStyle;
+    botStyle: string;
     style?: React.CSSProperties;
     circleColor?: string;
     topType?: string;
@@ -16,11 +15,12 @@ export interface Props {
     eyeType?: string;
     mouthType?: string;
     sideType?: string;
-    sideColor?: string;
+    sidesColor?: string;
     pieceType?: string;
     pieceSize?: string;
+    viewBox?: string;
 }
-export default class BotComponent extends React.Component<Props> {
+export default class Bottt extends React.Component<Props> {
     static childContextTypes: {
         optionContext: PropTypes.Requireable<OptionContext>;
     };

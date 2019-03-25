@@ -38,10 +38,10 @@ export default class MyComponent extends React.Component {
     return 
       <div>
         Your bot:
-        <Bot
+        <Bottt
           style={{width: '100px', height: '100px'}}
           botStyle='Circle'
-          color='BlueGrey300'
+          circleColor='BlueGrey300'
           topType='Bulb02'
           topColor='BlueGrey500'
           faceType='Square01'
@@ -67,11 +67,11 @@ export default class MyComponent extends React.Component {
   render () {
     return 
       <div>
-        <Piece pieceType="top" pieceSize="100" topType="Bulb02" topColor="BlueGrey500"/>
-        <Piece pieceType="face" pieceSize="100" faceType="Square01" faceColor="BlueGrey500" textureType="Camo01"/>
-        <Piece pieceType="eye" pieceSize="100" eyeType="Round"/>
-        <Piece pieceType="mouth" pieceSize="100" mouthType="Square01"/>
-        <Piece pieceType="sides" pieceSize="100" sidesType="Square" sidesColor="BlueGrey500"/>
+        <Piece botStyle='Circle' pieceType="top" pieceSize="100" topType="Bulb02" topColor="BlueGrey500"/>
+        <Piece botStyle='Circle' pieceType="face" pieceSize="100" faceType="Square01" faceColor="BlueGrey500" textureType="Camo01"/>
+        <Piece botStyle='Circle' pieceType="eye" pieceSize="100" eyeType="Round"/>
+        <Piece botStyle='Circle' pieceType="mouth" pieceSize="100" mouthType="Square01"/>
+        <Piece botStyle='Circle' pieceType="sides" pieceSize="100" sidesType="Square" sidesColor="BlueGrey500"/>
       </div>
   }
 }

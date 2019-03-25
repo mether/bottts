@@ -1,15 +1,15 @@
 import * as PropTypes from 'prop-types'
 import * as React from 'react'
 
-import Bot, { BotStyle } from './bot'
-import { default as PieceComponent } from './bot/piece'
+import { Bot, BotStyle } from './bot'
+import { PieceComponent } from './bot/piece'
 import { allOptions, OptionContext } from './options'
 
-export { default as Bot, BotStyle } from './bot'
+export { Bot, BotStyle } from './bot'
 export { Option, OptionContext, allOptions } from './options'
 
 export interface Props {
-  botStyle: BotStyle
+  botStyle: string
   style?: React.CSSProperties
   circleColor?: string
   topType?: string
@@ -20,12 +20,13 @@ export interface Props {
   eyeType?: string
   mouthType?: string
   sideType?: string
-  sideColor?: string
+  sidesColor?: string
   pieceType?: string
   pieceSize?: string
+  viewBox?: string
 }
 
-export default class BotComponent extends React.Component<Props> {
+export default class Bottt extends React.Component<Props> {
   static childContextTypes = {
     optionContext: PropTypes.instanceOf(OptionContext),
   }
@@ -45,7 +46,7 @@ export default class BotComponent extends React.Component<Props> {
 
   render () {
     const { botStyle, style } = this.props
-    return <Bot botStyle={botStyle} style={style}/>
+    return <Bot botStyle={botStyle as BotStyle} style={style}/>
   }
 
   private updateOptionContext (props: Props) {
@@ -82,7 +83,7 @@ export class Piece extends React.Component<Props> {
   render () {
     const { botStyle, style, pieceType, pieceSize } = this.props
     return (
-      <PieceComponent botStyle={botStyle}
+      <PieceComponent botStyle={botStyle as BotStyle}
                       style={style}
                       pieceType={pieceType}
                       pieceSize={pieceSize}/>

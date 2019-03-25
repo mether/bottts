@@ -57,7 +57,8 @@ var Bot = /** @class */ (function (_super) {
         var _a = this.props, botStyle = _a.botStyle, style = _a.style, size = _a.size;
         var circle = botStyle === BotStyle.Circle;
         var mainID = 'Bottt';
-        return (React.createElement("svg", { style: style, width: size + "px", height: size + "px", viewBox: "0 0 240 240", version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xmlnsXlink: 'http://www.w3.org/1999/xlink' },
+        var defaultSize = size ? size : 240;
+        return (React.createElement("svg", { style: style, width: defaultSize + "px", height: defaultSize + "px", viewBox: "0 0 240 240", version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xmlnsXlink: 'http://www.w3.org/1999/xlink' },
             React.createElement("title", null, "Bottt"),
             React.createElement("desc", null, "Created with botttsgenerator.com"),
             React.createElement("g", { id: mainID, stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
@@ -66,4 +67,4 @@ var Bot = /** @class */ (function (_super) {
     };
     return Bot;
 }(React.Component));
-exports.default = Bot;
+exports.Bot = Bot;

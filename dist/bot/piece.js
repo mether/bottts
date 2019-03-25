@@ -30,4 +30,4 @@ var PieceComponent = /** @class */ (function (_super) {
     };
     return PieceComponent;
 }(React.Component));
-exports.default = PieceComponent;
+exports.PieceComponent = PieceComponent;

@@ -9,6 +9,6 @@ export interface Props {
     botStyle: BotStyle;
     style?: React.CSSProperties;
 }
-export default class PieceComponent extends React.Component<Props> {
+export declare class PieceComponent extends React.Component<Props> {
     render(): JSX.Element;
 }
